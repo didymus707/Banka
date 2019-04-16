@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <div class="head-nav">
+        <div class="logo-head">
+            <img src="images/b2.png" alt="logo" class="logo">
+        </div>
+        <header>
+            <nav class="nav-list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+        <div class="main-story">
+            <h1>Welcome to Banka</h1>
+            <p>Meeting your Banking needs.....</p>
+            <button>Let's get started</button>
+        </div>
+
+        <aside>
+            <div id="signup-container">
+    
+                <div id="form-container">
+                    <div class="form">
+                        <form action="createAcc.html" class="registration" method="post">
+                            <div class="signup">
+                                <h3 class="signup-word">Register</h1>
+                            </div>
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required id="email">
+
+                            <label for="fName"><b>First Name</b></label>
+                            <input type="text" placeholder="Enter your First Name" name="fName" id
+                            fName required>
+
+                            <label for="lName"><b>Last Name</b></label>
+                            <input type="text" placeholder="Enter your Last Name" name="lName" id
+                            lName required>
+
+                            <label for="uName"><b>Username</b></label>
+                            <input type="text" name="username" placeholder="username" id="uName" required>
+
+                            <label for="password"><b>Password</b></label>
+                            <input type="password" name="password" placeholder="password" id="password" required>
+
+                            <label for="confirm"><b>Confirm Password</b></label>
+                            <input type="password" name="confirm password" placeholder="confirm password" id="confirm" required>
+                            <button>Sign Up</button>
+                            <p class="que">Already have an account? <a href="#" class="register"><br>Sign In</a></p>
+                        </form>
+    
+                        <form action="login" method="POST" class="signin">
+                            <div class="signup">
+                                <h3 class="signup-word">Sign In</h1>
+                            </div>
+                            <label for="email"><b>Email</b></label>
+                            <input type="email" name="username" placeholder="username/email" id="email">
+
+                            <label for="password"><b>Last Name</b></label>
+                            <input type="password" name="password" placeholder="password" id="password">
+                            <button>Sign In</button>
+                            <div class="extra-info">
+                                <p class="que"><a href="#">Forgot Password</a></p>
+    
+                                <p class="que">Don't have an account? <a href="#" class="register"><br>Register Here</a></p>
+                            </div>
+                        </form>
+                    </div> <!-- form -->
+                </div> <!-- form-container -->
+            </div> <!-- signup-container -->
+        </aside>
+    </main>
+
+<script src="js/usersignup.js"></script>
+</body>
+</html>

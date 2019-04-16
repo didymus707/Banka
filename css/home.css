@@ -1,0 +1,43 @@
+main {
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-image: url(../images/img3.jpg);
+}
+
+.main-story {
+    width: 60%;
+    margin: 200px auto;
+    text-align: center;
+    color: #008bff;
+    /* color: #ff1030; */
+    background-color: #c3c3c300;
+}
+
+.main-story h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.main-story p {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.main-story button {
+    padding: 12px;
+    background: #008bff;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 0;
+}
+
+aside {
+    display: none;
+    width: 40%;
+    flex-basis: 38%;
+    object-fit: fill;    
+    /* height: 90vh; */
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* background-image: url(../images/img1.jpg); */
+}
+
+
+.head-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #1c161d;
+    /* padding: 8px 0 8px; */
+}
+
+.logo {
+    width: 200px;
+    object-fit: fill;
+}
+
+header {
+    width: 70%;
+    align-self: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 20px;
+    color: #ffffff;
+    /* color: #2f4f4f; */
+    font-size: 18px;
+}
+
+.welcome {
+    margin: 100px auto;
+    color: #1c2a3f;
+    text-align: center;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+aside {
+    float: right;
+}
+
+#signup-container {
+    display: block;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.signup {
+    margin: 10px 0 20px;
+    color: #778899;
+    font-size: 30px;
+}
+
+#form-container {
+    width: 100%;
+    margin: auto;
+}
+
+.form {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    margin: 0 auto;
+    max-width: 360px;
+}
+
+.form input {
+	font-family: "roboto", sans-serif, cursive;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+    background: #f2f2f2;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.form input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form button {
+    background: #4ca5f0;
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active {
+    background: #43a407;
+}
+
+.form .que {
+    margin: 15px 0 15px;
+    color: darkkhaki;
+    font-size: 30px;
+}
+
+.form .que a {
+    text-decoration: none;
+    line-height: 1.8;
+}
+
+.registration {
+    display: none;
+}
+
+/* create account containing Call to action */
+.cta-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+}
+
+.cta-container a {
+    text-decoration: none;
+    text-align: center;
+    color: #4a2f52;
+    font-size: 15px;
+    
+}
+
+.cta-container a:hover {
+    color: #be3294;
+}
+
+.sameBox {
+    text-align: center;
+    /* width: calc((100% - 20px)/3); */
+    border: 1px solid rgb(216, 213, 213);
+}
+
+.cya-container,.dash-container, .vath-container {
+    height: 300px;
+    padding: 130px 20px;
+}
+
+.hide {
+    display: none;
+}
+
+#cya-form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+    padding-top: 16px;
+    /* background: #584a5c; */
+    border: solid 1px #a1a1a1;
+}
+
+
+#cya-form-container h2, p{
+    margin: 0 0 20px 15px;
+    color: #1c2a3f;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin: 0 15px 12px;
+}
+
+.formLayout {
+    margin: 15px;
+    padding: 20px 10px;
+    border: solid 1px rgb(216, 213, 213);
+    /* background: whitesmoke; */
+}
+
+.formLayout tr {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 10px 10px;
+}
+
+.formLayout tr>td {
+    text-align: center
+}
+
+.formLayout label, .formLayout select {
+    font-size: 14px;
+}
+
+.formLayout select, .formLayout input {
+    display: inline-block;
+    width: 200px;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 0 0 10px;
+    background: whitesmoke;
+}
+
+.formLayout label {
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+}
+
+.formLayout input {
+    border: solid 1px #a1a1a1;
+}
+
+#files {
+    background: whitesmoke;
+}
+.registerbtn {
+    background: #4ca5f0;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 15px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+/* create account containing Call to action ends*/
+
+/* dashboard design */
+#dash-body {
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    /* object-fit: fill; */
+    height: 100%;
+}
+
+.profile-details {
+    flex-basis: 20%;
+    /* object-fit: fill;     */
+    height: 100vh;
+    background-color: white;
+    /* background: #ffffe0; */
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0 , 0.5);
+    /* margin-left: 10px; */
+}
+
+.prof-img {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px; 
+}
+
+#img {
+    width: 150px;
+    object-fit: fill;
+    border-radius: 50%;
+    margin: 20px 50px 0;
+}
+
+#custom-btn {
+    margin: 10px 0;
+    padding:10px;
+    color: #ffffff;
+    background-color: #2fa5c0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+}
+
+#custom-btn:hover {
+    background-color: #1b8870;
+    opacity: 0.6;
+}
+
+#custom-Text {
+    font-family: sans-serif;
+    color: #aaa;
+}
+
+.detail-area {
+    text-align: center;
+    /* padding-bottom: 10px; */
+    line-height: 1.4;
+    margin: 0 0 15px;
+    /* background: #ffffe0; */
+}
+
+.msg {
+    margin: 0 0 10px;
+}
+
+.detail-area .hov:hover {
+    background: #1b8870;
+    padding: 7px 0;
+}
+
+.detail-area p a {
+    text-decoration: none;
+    /* color: #293333; */
+    color: #1c2a3f;
+    font-weight: bold;
+}
+
+.detail-area hr {
+    border: 1px solid #cfcccc;
+    margin: 0 25px 12px;
+}
+
+.detail-area button {
+    margin-bottom: 15px;
+    padding:10px;
+    color: #ffffff;
+    background-color: #2fa5c0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.detail-area button:hover {
+    background-color: #1b8870;
+    opacity: 0.6;
+}
+
+.bank-actions {
+    text-align: center;
+    line-height: 2;
+    font-weight: bold;
+    /* height: 100%; */
+    /* background: #ffffff; */
+    margin-top: 15px;
+}
+
+.bank-actions li {
+    list-style-type: none;
+}
+
+.bank-actions li a {
+    text-decoration: none;
+    color: #293333;
+}
+
+.bank-actions li:hover {
+    background: #1b8870;
+    padding: 7px 0;
+}
+
+/* account deatils section */
+
+.sect1 {
+    width: 100%;
+    margin: 10px;
+    padding: 30px 0 0;
+    /* background-image: url(../images/img2.jpg); */
+    background-size: cover;
+    background-color: rgb(0,0,0,0.4);
+}
+
+.w-back {
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.img-cont, .img-cont h1{
+    text-align: center;
+    color: #132319;
+    margin-bottom: 20px;
+}
+
+.img-cont hr {
+    margin: 0 70px 20px;
+}
+
+.acct-details {
+    text-align: center;
+}
+
+.acct-details li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    /* color: #aad9e4; */
+    color: #132319;
+    font-weight: bold;
+}
+
+.trans-hist h1 {
+    margin-left: 20px;
+    color: #132319;
+}
+
+.dash-table {
+    width: 100%;
+    margin-top: 15px;
+    color: #132319;
+}
+
+.dash-table th {
+    margin-right: 20px;
+}
+
+.dash-table th, .dash-table td {
+    border-bottom: 1px groove #ffffff;
+    padding: 15px;
+    text-align: center;
+}

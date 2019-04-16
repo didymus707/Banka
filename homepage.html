@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Banka</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div>
+        <header>
+            <nav class="nav-list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </nav>
+        </header>
+    </div>
+
+    <div class="welcome">
+        <h1>Welcome to Banka</h1>
+    </div>
+
+    <main>
+        <div id="signup-container">
+
+            <div id="form-container">
+                <div class="form">
+                    <form action="createAcc.html" class="registration" method="post">
+                        <div class="signup">
+                            <h3 class="signup-word">Sign Up</h1>
+                        </div>
+
+                        <input type="email" name="email" placeholder="email id">
+                        <input type="text" name="username" placeholder="username">
+                        <input type="password" name="password" placeholder="password">
+                        <input type="password" name="confirm password" placeholder="confirm password">
+                        <button>Sign Up</button>
+                        <p class="que">Already have an account? <a href="#" class="register"><br>Sign In</a></p>
+                    </form>
+
+                    <form action="login" method="POST" class="signin">
+                        <div class="signup">
+                            <h3 class="signup-word">Sign In</h1>
+                        </div>
+
+                        <input type="email" name="username" placeholder="username/email id">
+                        <input type="password" name="password" placeholder="password">
+                        <button>Sign In</button>
+                        <div class="extra-info">
+                            <p class="que"><a href="#">Forgot Password</a></p>
+                            
+                            <p class="que">Don't have an account? <a href="#" class="register"><br>Register Here</a></p>
+                        </div>
+                    </form>
+                </div> <!-- form -->
+            </div> <!-- form-container -->
+        </div> <!-- signup-container -->
+    </main>
+
+    <script src="js/usersignup.js"></script>
+</body>
+</html>

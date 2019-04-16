@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Banka</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="head-nav">
+        <div class="logo-head">
+            <img src="images/b2.png" alt="logo" class="logo">
+        </div>
+        <header>
+            <nav class="nav-list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </nav>
+        </header>
+    </div>
+
+    <div class="welcome">
+        <h1>Welcome to Banka</h1>
+    </div> <!-- welcome -->
+
+    <div class="cta-container">
+        
+        <div class="cya-container cya sameBox">
+            <h2 class="create"><a href="#">Create a Banka Account</a></h2>
+        </div>
+
+    </div> <!-- cta-container -->
+
+    <div id="cya-form-container" class="hide">
+        <h2>ACCOUNT INFORMATION</h2>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+
+        <table class="formLayout">
+            <tr>
+                <td class="left">
+                    <label for="acc-type">ACCOUNT TYPE:</label>
+                    <select name="account-type" id="acc-type">
+                        <option value="Choose">Choose</option>
+                        <option value="Savings">Savings</option>
+                        <option value="Current">Current</option>
+                    </select>
+                </td>
+                <td class="right">
+                    <label for="st-origin">STATE OF ORIGIN:</label>
+                    <select name="state of origin" id="st-origin">
+                        <option value="CHOOSE">Choose</option>
+                        <option value="Abia STATE">Abia State</option>
+                        <option value="Adamawa STATE">Adamawa State</option>
+                        <option value="Akwa Ibom State">Akwa Ibom State</option>
+                        <option value="Anambra State">Anambra State</option>
+                        <option value="Bauchi State">Bauchi State</option>
+                        <option value="Bayelsa State">BAYELSA State</option>
+                        <option value="Benue State">Benue State</option>
+                        <option value="Bornu State">Bornu State</option>
+                        <option value="Cross River State">Cross River State</option>
+                        <option value="Delta State">Delta State</option>
+                        <option value="Ebonyi State">Ebonyi State</option>
+                        <option value="Edo State">Edo State</option>
+                        <option value="Ekiti State">Ekiti State</option>
+                        <option value="Enugu State">Enugu State</option>
+                        <option value="FCT">FCT</option>
+                        <option value="Gombe State">Gombe State</option>
+                        <option value="Imo State">Imo State</option>
+                        <option value="Jigawa State">Jigawa State</option>
+                        <option value="Kaduna State">Kaduna State</option>
+                        <option value="Kano State">Kano State</option>
+                        <option value="Katsina State">Katsina State</option>
+                        <option value="Kebbi State">Kebbi State</option>
+                        <option value="Kogi State">Kogi State</option>
+                        <option value="Kwara State">Kwara State</option>
+                        <option value="Lagos">Lagos</option>
+                        <option value="Nasarawa State">Nasarawa State</option>
+                        <option value="Niger State">Niger State</option>
+                        <option value="Not Applicable">Not Applicable</option>
+                        <option value="Ogun State">Ogun State</option>
+                        <option value="Ondo State">Ondo State</option>
+                        <option value="Osun State">Osun State</option>
+                        <option value="Oyo State">Oyo State</option>
+                        <option value="Plateau State">Plateau State</option>
+                        <option value="Rivers State">Rivers State</option>
+                        <option value="Sokoto State">Sokoto State</option>
+                        <option value="Taraba State">Taraba State</option>
+                        <option value="Yobe State">Yobe State</option>
+                        <option value="Zamfara State">Zamfara State</option>
+                    </select>
+                </td> 
+            </tr>
+            <tr>
+                <td class="left">
+                    <label for="title">TITLE:</label>
+                    <select name="title" id="title">
+                        <option value="Choose">Choose</option>
+                        <option value="Alhaji">Alhaji</option>
+                        <option value="Alhaja">Alhaja</option>
+                        <option value="Barrister">Barrister</option>
+                        <option value="Chief">Chief</option>
+                        <option value="Dr.">Dr.</option>
+                        <option value="Engr">Engr</option>
+                        <option value="Miss">Miss</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                        <option value="Pastor">Pastor</option>
+                        <option value="Prof">Prof</option>
+                        <option value="Revd">Revd</option>
+                    </select>
+                </td>
+                <td class="right">
+                    <label for="fName">FIRST NAME:</label>
+                    <input type="text" name="first name" id="fName">
+                </td>
+            </tr>
+            <tr>
+                <td class="left">
+                    <label for="oName">OTHER NAME:</label>
+                    <input type="text" name="other name" id="oName">
+                </td>
+                <td class="right">
+                    <label for="lName">SURNAME:</label>
+                    <input type="text" name="last name" id="lName">
+                </td>
+            </tr>
+            <tr>
+                <td class="left">
+                    <label for="dob">DATE OF BIRTH:</label>
+                    <input type="date" name="D.O.B" id="dob">
+                </td>
+                <td class="right">
+                    <label for="sex">SEX:</label>
+                    <select name="sex" id="sex">
+                        <option value="Choose">Choose</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="left">
+                    <label for="mdName">MOTHER's MAIDEN NAME:</label>
+                    <input type="text" name="MAIDEN Name" id="mdName">
+                </td>
+                <td class="right">
+                    <label for="job">OCCUPATION:</label>
+                    <select name="Job" id="job">
+                        <option value="Choose">Choose</option>
+                        <option value="100">Accountant</option>
+                        <option value="137">Advertising &amp; Marketing</option>
+                        <option value="103">Architect</option>
+                        <option value="133">Artiste / Entertainment</option>
+                        <option value="104">Banker</option>
+                        <option value="107">Civil Servant</option>
+                        <option value="108">Cleric</option>
+                        <option value="109">Engineer</option>
+                        <option value="111">Enterpreneur</option>
+                        <option value="112">Farmer/option>
+                        <option value="115">Horologist</option>
+                        <option value="116">Horticulturist/option>
+                        <option value="117">ICT</option>
+                        <option value="118">Journalist</option>
+                        <option value="119">Legal Practitioner</option>
+                        <option value="121">Medical Practitioner</option>
+                        <option value="123">Military Personnel</option>
+                        <option value="136">OTHERS</option>
+                        <option value="141">Pharmacist</option>
+                        <option value="124">Pilot</option>
+                        <option value="142">Public Office Holder</option>
+                        <option value="125">Sailor</option>
+                        <option value="126">Scientist</option>
+                        <option value="127">Secretary</option>
+                        <option value="128">Student</option>
+                        <option value="132">Surveyor</option>
+                        <option value="129">System Analyst</option>
+                        <option value="135">Teacher/Lecturer</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="left">
+                    <label for="mId">MEANS OF ID:</label>
+                    <select name="means of ID" id="mId">
+                        <option value="Choose">Choose</option>
+                        <option value="13">Driver's License</option>
+                        <option value="15">Int'l Passport</option>
+                        <option value="14">National ID</option>
+                        <option value="16">Others</option>
+                        <option value="19">Voter's ID Card</option>
+                        <option value="116">Student ID</option>
+                    </select>
+                </td>
+                <td class="right">
+                    <label for="contact">CONTACT ADDRESS:</label>
+                    <input type="text" name="Contact Adsress" id="contact">
+                </td>
+            </tr>
+            <tr>
+                <td class="left">
+                    <label for="st-residence">STATE OF RESIDENCE:</label>
+                    <input type="text" name="Contact Address" id="st-residence">
+                </td>
+                <td class="right">
+                    <label for="email">EMAIL ADDRESS:</label>
+                    <input type="email" name="email address" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td class="left">
+                    <label for="tel">MOBILE NO:</label>
+                    <input type="tel" name="mobile no" id="tel">
+                </td>
+                <td class="right">
+                    <label for="ci-residence">CITY OF RESIDENCE:</label>
+                    <input type="text" name="Contact Adsress" id="ci-residence">
+                </td>
+            </tr><br>
+            <tr>
+                <td>
+                    <label for="files">
+                        <input type="file" name="Upload Your Passport" id="files"> Upload your Passport
+                    </label>
+                </td>
+            </tr>
+        </table>            
+
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+        <button type="submit" class="registerbtn">Create Your Account</button>
+    </div> <!-- cya-form-container -->
+
+<script src="js/cta.js"></script>
+</body>
+</html>

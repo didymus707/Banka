@@ -1,6 +1,6 @@
-#Banka
+# Banka
 
-##About
+## About
 
 Banka is a light-weight core banking application that powers banking operations like account
 creation, customer deposit and withdrawals. This app is meant to support a single bank, where
